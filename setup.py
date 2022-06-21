@@ -15,6 +15,7 @@ def get_version(file="tvse/version") -> str:
 setup(
     name="tvse",
     version=get_version(),
+    description="tvs environment",
     author="Thijs van Straaten",
     include_package_data=True,
     entry_points={"console_scripts": ["tvse=tvse.command_line:main"]},
